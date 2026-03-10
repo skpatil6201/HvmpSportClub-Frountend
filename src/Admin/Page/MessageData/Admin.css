@@ -1,0 +1,61 @@
+/* Admin.css */
+
+/* Navbar styles */
+.navbar {
+  background-color: #343a40; /* Dark background color */
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Adjust the font size */
+}
+
+.navbar .ml-auto {
+  margin-right: 1rem; /* Adjust the margin as needed */
+}
+
+/* Logout button styles */
+.btn-dark {
+  background-color: #343a40; /* Dark background color */
+  color: #fff; /* White text color */
+  border: none;
+}
+
+.btn-dark:hover {
+  background-color: #23272b; /* Darker background color on hover */
+}
+
+/* Admin table styles */
+.admin-container {
+  margin-top: 2rem; /* Adjust the margin as needed */
+}
+
+.admin-table {
+  width: 100%;
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse; /* Collapse table borders */
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #dee2e6; /* Light border color */
+}
+
+.table th {
+  background-color: #f8f9fa; /* Light background color */
+  font-weight: bold;
+}
+
+/* Alternate row colors */
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Lighter background color */
+}
+
+/* Hover effect on table rows */
+.table tbody tr:hover {
+  background-color: #e2e6ea; /* Light background color on hover */
+}

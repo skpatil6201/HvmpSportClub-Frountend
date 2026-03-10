@@ -1,0 +1,62 @@
+/* Example CSS for footer styling */
+
+/* Footer container */
+.mfn-footer {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+  }
+  
+  /* Footer action section */
+  .footer_action {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer_action h4 {
+    font-size: 20px;
+  }
+  
+  /* Widget wrapper */
+  .widgets_wrapper {
+    background-color: #fff;
+    padding: 20px 0;
+  }
+  
+  /* Widget container */
+  .widgets_wrapper .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Widget column */
+  .widgets_wrapper .column {
+    width: 25%; /* Adjust as per your design */
+  }
+  
+  /* Footer copy section */
+  .footer_copy {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer_copy ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .footer_copy ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .footer_copy ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer_copy ul li a:hover {
+    text-decoration: underline;
+  }
+  
